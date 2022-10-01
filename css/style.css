@@ -375,6 +375,10 @@ main section .gridblog article div {
     height: 15%;
 }
 
+main section .gridblog .enlace {
+    margin-bottom: 1em;
+}
+
 /*final blog*/
 
 /*inicio menu*/
@@ -452,7 +456,6 @@ main #nuestromenu article>div .fa-solid {
     padding: 0;
 }
 
-
 /*final menu*/
 
 
@@ -527,7 +530,7 @@ main #nuestromenu article>div .fa-solid {
     }
 
     main #nuestromenu .container .productos {
-        width: 190%;
+        width: 200%;
         margin-top: 2em;
     }
 
