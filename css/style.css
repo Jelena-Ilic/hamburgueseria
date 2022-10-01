@@ -411,7 +411,7 @@ main section .gridblog article div {
     border-radius: 1em;
 }
 
-main section article h3 {
+main #nuestromenu article h3 {
     font-weight: 700;
     font-size: 110%;
     margin: 0.625em 0;
@@ -443,6 +443,13 @@ main .productos article {
 main .container section article {
     display: flex;
     flex-direction: column;
+}
+
+main #nuestromenu article>div .fa-solid {
+    color: var(--colorprincipal);
+    font-size: 120%;
+    border: none;
+    padding: 0;
 }
 
 
@@ -506,12 +513,31 @@ main .container section article {
         padding: 0.500em;
     }
 
-    main .container article {
-        width: 33.333%;
+    main #nuestromenu .container {
         display: flex;
         flex-direction: row;
     }
 
+    main #nuestromenu .container .productos article {
+        display: flex;
+    }
+
+    main #nuestromenu .container .productos article .columna {
+        display: flex;
+    }
+
+    main #nuestromenu .container .productos {
+        width: 190%;
+        margin-top: 2em;
+    }
+
+    main #nuestromenu .container .derecha {
+        padding: 0 1em;
+    }
+
+    main #nuestromenu .container figure {
+        margin-top: 1em;
+    }
 }
 
 @media(min-width: 62.75em) {
