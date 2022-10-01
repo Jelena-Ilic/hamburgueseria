@@ -344,6 +344,39 @@ main section .flex .imagen:hover :is(.marco, .marco img) {
 
 /*final aboutus*/
 
+/*inicio blog*/
+
+main section .gridblog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main section .gridblog article {
+    width: 50%;
+    padding: 1.25em;
+    position: relative;
+}
+
+main section .gridblog h4 {
+    color: var(--colorprincipal);
+    margin: var(--margingrid) 0;
+    font-weight: 700;
+}
+
+main section .gridblog article div {
+    background-color: var(--colorprincipal);
+    color: white;
+    position: absolute;
+    width: 25%;
+    padding: 0.500em;
+    text-align: center;
+    opacity: 0.8;
+    font-weight: 700;
+    height: 15%;
+}
+
+/*final blog*/
+
 
 
 /* mediaqueries*/
@@ -375,6 +408,7 @@ main section .flex .imagen:hover :is(.marco, .marco img) {
         margin-top: 2.5em;
     }
 
+
 }
 
 @media(min-width: 48em) {
@@ -390,6 +424,15 @@ main section .flex .imagen:hover :is(.marco, .marco img) {
 
     main section .grid :is(article, article:last-child) {
         width: 33.333%;
+    }
+
+    main section .gridblog article {
+        width: 33.333%;
+    }
+
+    main section .gridblog article div {
+        width: 15%;
+        padding: 0.500em;
     }
 
 }
