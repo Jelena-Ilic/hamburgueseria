@@ -388,20 +388,65 @@ main section .gridblog article div {
     color: white;
 }
 
-/*final menu*/
+.container section .menucarta {
+    padding-top: 3em;
+}
 
-.container .menucarta div {
-    background-color: var(--colorprincipal);
+.container section .menucarta li {
+    background-color: var(--colorsecundario);
     width: 100%;
-    padding: 1em;
     border-radius: 0.5em;
     margin-bottom: 1em;
 }
 
-.container .menucarta a {
+.container section .menucarta ul li a {
+    display: block;
+    padding: 1.25em;
     text-decoration: none;
     color: white;
 }
+
+.container section .menucarta ul li .activo {
+    background-color: var(--colorprincipal);
+    border-radius: 1em;
+}
+
+main section article h3 {
+    font-weight: 700;
+    font-size: 110%;
+    margin: 0.625em 0;
+    color: white;
+}
+
+main section .ofertas .underline hr {
+    margin-left: 0;
+    background-color: var(--colorprincipal);
+    width: 4em;
+}
+
+main section {
+    width: 100%;
+}
+
+main section .ofertas .underline {
+    margin-left: 0;
+}
+
+main section article h3 span {
+    color: var(--colorprincipal);
+}
+
+main .productos article {
+    margin: 0 0 1em 0;
+}
+
+main .container section article {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*final menu*/
 
 
 
@@ -459,6 +504,12 @@ main section .gridblog article div {
     main section .gridblog article div {
         width: 15%;
         padding: 0.500em;
+    }
+
+    main .container article {
+        width: 33.333%;
+        display: flex;
+        flex-direction: row;
     }
 
 }
