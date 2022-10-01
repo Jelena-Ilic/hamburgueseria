@@ -377,6 +377,32 @@ main section .gridblog article div {
 
 /*final blog*/
 
+/*inicio menu*/
+
+#nuestromenu {
+    background-color: var(--colorsecundario);
+    width: 100%;
+}
+
+#nuestromenu h2 {
+    color: white;
+}
+
+/*final menu*/
+
+.container .menucarta div {
+    background-color: var(--colorprincipal);
+    width: 100%;
+    padding: 1em;
+    border-radius: 0.5em;
+    margin-bottom: 1em;
+}
+
+.container .menucarta a {
+    text-decoration: none;
+    color: white;
+}
+
 
 
 /* mediaqueries*/
